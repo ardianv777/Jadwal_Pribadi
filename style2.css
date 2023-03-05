@@ -1,0 +1,31 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+header {
+	background: url('Karawitan.jpeg');
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-position: 100%;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+	box-shadow: 10px 4px 5px black
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #7ae2f275 10%, #fd5e086b 100%);	
+}
+.paragraf{
+	align-items: center;
+	width: 500px;
+  padding: 50px;
+  margin:auto;
+  background-color: rgba(241, 173, 149, 0.692);
+  box-shadow: 10px 10px 5px rgb(248, 219, 145);
+    text-align: justify;
+	font-family: "Roboto";
+}
